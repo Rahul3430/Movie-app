@@ -33,7 +33,7 @@ export default function AdminRoute({ children }) {
   }
 
   if (!allowed) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/Login" replace />;
   }
 
   return children;
