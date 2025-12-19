@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { Eye, EyeOff } from 'lucide-react';
 import api from '../utils/api';
 
 export default function Register() {
   const [form, setForm] = useState({ name: '', email: '', password: '' });
   const [error, setError] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-  // ✅ Auto-redirect if already logged in
   useEffect(() => {
     const checkLogin = async () => {
       try {
@@ -18,7 +19,7 @@ export default function Register() {
           navigate('/home', { replace: true });
         }
       } catch (err) {
-        // do nothing if not logged in
+        // not logged in → do nothing
       }
     };
     checkLogin();
@@ -36,11 +37,9 @@ export default function Register() {
     try {
       const res = await api.post('/auth/register', form);
 
-      // store token & role if backend returns it
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('role', res.data.user.role);
 
-      // redirect based on role
       if (res.data.user.role === 'admin') {
         navigate('/admin');
       } else {
@@ -90,13 +89,23 @@ export default function Register() {
         />
 
         <label className="block text-sm text-gray-300 mb-1">Password</label>
-        <input
-          name="password"
-          type="password"
-          placeholder="Create a password"
-          onChange={handleChange}
-          className="w-full mb-5 px-3 py-2 rounded bg-black text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-        />
+        <div className="relative mb-5">
+          <input
+            name="password"
+            type={showPassword ? 'text' : 'password'}
+            placeholder="Create a password"
+            onChange={handleChange}
+            className="w-full px-3 py-2 pr-10 rounded bg-black text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+          />
+
+          <button
+            type="button"
+            onClick={() => setShowPassword(!showPassword)}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
+          >
+            {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+          </button>
+        </div>
 
         <button
           className="w-full py-2 rounded font-semibold text-black bg-yellow-400 hover:bg-yellow-300 transition"

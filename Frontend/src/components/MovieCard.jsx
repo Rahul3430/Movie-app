@@ -6,7 +6,7 @@ const MovieCard = ({ movie }) => {
       hover:border-yellow-400 hover:shadow-2xl
       transition duration-300"
     >
-      {/* Poster */}
+
       <div className="h-64 bg-black flex items-center justify-center">
         <img
           src={movie.poster || "https://via.placeholder.com/300"}
@@ -15,7 +15,7 @@ const MovieCard = ({ movie }) => {
         />
       </div>
 
-      {/* Details */}
+
       <div className="p-4">
         <h2 className="text-lg font-bold truncate">
           {movie.title}

@@ -15,14 +15,12 @@ const Navbar = ({ search, setSearch, onLogout }) => {
   return (
     <nav className="bg-black border-b border-gray-800 px-6 py-4">
       <div className="flex items-center justify-between">
-        {/* Logo */}
         <h1 className="text-xl font-extrabold text-white">
           <span className="bg-yellow-400 text-black px-2 py-1 rounded">
             Movie App
           </span>
         </h1>
 
-        {/* Search (Desktop) */}
         <input
           type="text"
           placeholder="Search movies..."
@@ -33,9 +31,8 @@ const Navbar = ({ search, setSearch, onLogout }) => {
           focus:outline-none focus:ring-2 focus:ring-yellow-400"
         />
 
-        {/* Desktop Actions */}
         <div className="hidden md:flex gap-4 items-center">
-          {/* 🔐 Admin Only */}
+
           {isAdmin && (
             <Link
               to="/admin"
@@ -55,7 +52,6 @@ const Navbar = ({ search, setSearch, onLogout }) => {
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-white text-2xl"
@@ -77,7 +73,6 @@ const Navbar = ({ search, setSearch, onLogout }) => {
             focus:outline-none focus:ring-2 focus:ring-yellow-400"
           />
 
-          {/* 🔐 Admin Only (Mobile) */}
           {isAdmin && (
             <Link
               to="/admin"

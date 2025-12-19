@@ -48,7 +48,6 @@ const Home = () => {
     <div className="min-h-screen bg-black text-white">
       <Navbar search={search} setSearch={setSearch} onLogout={logout} />
 
-      {/* Sort Bar */}
       <div className="px-6 py-4 flex justify-end">
         <select
           value={sort}
@@ -63,7 +62,6 @@ const Home = () => {
         </select>
       </div>
 
-      {/* Content */}
       {loading ? (
         <p className="text-center text-gray-400 mt-16 text-lg">
           Loading movies...

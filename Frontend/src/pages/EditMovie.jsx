@@ -67,7 +67,7 @@ export default function EditMovie() {
       <AdminNavbar />
 
       <div className="p-6 bg-black min-h-screen text-white">
-        {/* Back */}
+      
         <button
           onClick={() => navigate(-1)}
           className="mb-6 text-gray-400 hover:text-yellow-400 transition"

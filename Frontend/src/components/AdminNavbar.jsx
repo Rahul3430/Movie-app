@@ -13,14 +13,11 @@ export default function AdminNavbar() {
 
   return (
     <nav className="bg-black border-b border-gray-800 px-6 py-4">
-      {/* Top Bar */}
       <div className="flex justify-between items-center">
-        {/* Logo */}
         <h1 className="text-xl font-extrabold">
           <span className="text-yellow-400">Movies App</span>
         </h1>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 items-center text-gray-300">
           <Link
             to="/"
@@ -52,7 +49,6 @@ export default function AdminNavbar() {
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-white text-2xl"

@@ -1,25 +1,24 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { Eye, EyeOff } from 'lucide-react';
 import api from '../utils/api';
 
 export default function Login() {
   const [form, setForm] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-  // ✅ Auto-redirect if already logged in
   useEffect(() => {
     const checkLogin = async () => {
       try {
-        const res = await api.get('/auth/profile'); // backend returns user info
+        const res = await api.get('/auth/profile');
         if (res.data.user.role === 'admin') {
-          navigate('/admin', { replace: true }); // admin auto redirect
+          navigate('/admin', { replace: true });
         } else if (res.data.user) {
-          navigate('/home', { replace: true }); // normal user auto redirect
+          navigate('/home', { replace: true });
         }
       } catch (err) {
-        // 🔹 Do NOTHING if not logged in
-        // This prevents unauthorized error from showing prematurely
       }
     };
 
@@ -38,11 +37,9 @@ export default function Login() {
     try {
       const res = await api.post('/auth/login', form);
 
-      // store token & role
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('role', res.data.user.role);
 
-      // redirect based on role
       if (res.data.user.role === 'admin') {
         navigate('/admin');
       } else {
@@ -69,7 +66,6 @@ export default function Login() {
           Sign in
         </h2>
 
-        {/* 🔹 Only show error on login attempt */}
         {error && (
           <div className="mb-4 text-sm text-red-400 bg-red-900/20 border border-red-500 px-3 py-2 rounded">
             {error}
@@ -85,13 +81,23 @@ export default function Login() {
         />
 
         <label className="block text-sm text-gray-300 mb-1">Password</label>
-        <input
-          name="password"
-          type="password"
-          onChange={handleChange}
-          placeholder="Enter your password"
-          className="w-full mb-5 px-3 py-2 rounded bg-black text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#F5C518]"
-        />
+        <div className="relative mb-5">
+          <input
+            name="password"
+            type={showPassword ? 'text' : 'password'}
+            onChange={handleChange}
+            placeholder="Enter your password"
+            className="w-full px-3 py-2 pr-10 rounded bg-black text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#F5C518]"
+          />
+
+          <button
+            type="button"
+            onClick={() => setShowPassword(!showPassword)}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
+          >
+            {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+          </button>
+        </div>
 
         <button
           className="w-full py-2 rounded font-semibold text-black bg-[#F5C518] hover:bg-yellow-400 transition"

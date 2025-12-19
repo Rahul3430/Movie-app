@@ -24,7 +24,6 @@ export default function AddMovie() {
     e.preventDefault();
 
     try {
-      // Prepare payload with correct types
       const payload = {
         title: form.title,
         description: form.description,
