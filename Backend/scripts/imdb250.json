@@ -1,0 +1,454 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption.",
+    "rating": 4.8,
+    "releaseDate": "1994-09-23",
+    "genre": ["Drama"],
+    "duration": 142,
+    "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "description": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son.",
+    "rating": 4.8,
+    "releaseDate": "1972-03-24",
+    "genre": ["Crime", "Drama"],
+    "duration": 175,
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "description": "Batman faces the Joker, a criminal mastermind bent on chaos.",
+    "rating": 4.7,
+    "releaseDate": "2008-07-18",
+    "genre": ["Action", "Crime", "Drama"],
+    "duration": 152,
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+    "title": "The Godfather Part II",
+    "description": "The early life and career of Vito Corleone while his son expands the family crime empire.",
+    "rating": 4.7,
+    "releaseDate": "1974-12-20",
+    "genre": ["Crime", "Drama"],
+    "duration": 202,
+    "poster": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+  },
+  {
+    "title": "12 Angry Men",
+    "description": "A jury deliberates the fate of a defendant in a murder trial.",
+    "rating": 4.7,
+    "releaseDate": "1957-04-10",
+    "genre": ["Drama"],
+    "duration": 96,
+    "poster": "https://image.tmdb.org/t/p/w500/ppd84D2i9W8jXmsyInGyihiSyqz.jpg"
+  },
+  {
+    "title": "Schindler's List",
+    "description": "A businessman saves Jewish lives during the Holocaust.",
+    "rating": 4.7,
+    "releaseDate": "1993-12-15",
+    "genre": ["Biography", "Drama", "History"],
+    "duration": 195,
+    "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "description": "The final battle for Middle-earth begins.",
+    "rating": 4.7,
+    "releaseDate": "2003-12-17",
+    "genre": ["Adventure", "Fantasy"],
+    "duration": 201,
+    "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "description": "Stories of crime intertwine in Los Angeles.",
+    "rating": 4.6,
+    "releaseDate": "1994-10-14",
+    "genre": ["Crime", "Drama"],
+    "duration": 154,
+    "poster": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "description": "A hobbit begins a journey to destroy a powerful ring.",
+    "rating": 4.6,
+    "releaseDate": "2001-12-19",
+    "genre": ["Adventure", "Fantasy"],
+    "duration": 178,
+    "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "description": "The life journey of a kind-hearted man with a low IQ.",
+    "rating": 4.6,
+    "releaseDate": "1994-07-06",
+    "genre": ["Drama", "Romance"],
+    "duration": 142,
+    "poster": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg"
+  },
+  {
+    "title": "Inception",
+    "description": "A thief steals information through dream-sharing technology.",
+    "rating": 4.6,
+    "releaseDate": "2010-07-16",
+    "genre": ["Action", "Sci-Fi"],
+    "duration": 148,
+    "poster": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "description": "An underground fight club forms as an anti-consumerist movement.",
+    "rating": 4.6,
+    "releaseDate": "1999-10-15",
+    "genre": ["Drama"],
+    "duration": 139,
+    "poster": "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg"
+  },
+  {
+    "title": "The Matrix",
+    "description": "A hacker discovers the shocking truth about reality.",
+    "rating": 4.6,
+    "releaseDate": "1999-03-31",
+    "genre": ["Action", "Sci-Fi"],
+    "duration": 136,
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+  },
+  {
+    "title": "Goodfellas",
+    "description": "The rise and fall of a mob associate.",
+    "rating": 4.6,
+    "releaseDate": "1990-09-21",
+    "genre": ["Crime", "Drama"],
+    "duration": 146,
+    "poster": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "description": "Explorers travel through a wormhole in space.",
+    "rating": 4.5,
+    "releaseDate": "2014-11-07",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "duration": 169,
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
+  {
+    "title": "City of God",
+    "description": "The story of crime in Rio de Janeiro.",
+    "rating": 4.5,
+    "releaseDate": "2002-08-30",
+    "genre": ["Crime", "Drama"],
+    "duration": 130,
+    "poster": "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg"
+  },
+  {
+    "title": "Se7en",
+    "description": "Two detectives hunt a serial killer using the seven deadly sins.",
+    "rating": 4.5,
+    "releaseDate": "1995-09-22",
+    "genre": ["Crime", "Thriller"],
+    "duration": 127,
+    "poster": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "description": "An FBI trainee seeks help from a cannibalistic serial killer.",
+    "rating": 4.5,
+    "releaseDate": "1991-02-14",
+    "genre": ["Crime", "Thriller"],
+    "duration": 118,
+    "poster": "https://image.tmdb.org/t/p/w500/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "description": "Soldiers search for a paratrooper behind enemy lines.",
+    "rating": 4.5,
+    "releaseDate": "1998-07-24",
+    "genre": ["Drama", "War"],
+    "duration": 169,
+    "poster": "https://image.tmdb.org/t/p/w500/1wY4psJ5NVEhCuOYROwLH2XExMZ.jpg"
+  },
+  {
+    "title": "The Green Mile",
+    "description": "A death row guard encounters a mysterious inmate.",
+    "rating": 4.5,
+    "releaseDate": "1999-12-10",
+    "genre": ["Drama", "Fantasy"],
+    "duration": 189,
+    "poster": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg"
+  },
+
+  {
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "description": "The Rebels face attacks from the Empire as Luke trains to become a Jedi.",
+    "rating": 4.5,
+    "releaseDate": "1980-05-21",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "duration": 124,
+    "poster": "https://image.tmdb.org/t/p/w500/7BuH8itoSrLExs2YZSsM01Qk2no.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "description": "The Fellowship is divided but continues the fight against Sauron.",
+    "rating": 4.5,
+    "releaseDate": "2002-12-18",
+    "genre": ["Adventure", "Fantasy"],
+    "duration": 179,
+    "poster": "https://image.tmdb.org/t/p/w500/rrGlNlzFTrXFNGXsD7NNlxq4BPb.jpg"
+  },
+  {
+    "title": "The Pianist",
+    "description": "A Jewish pianist struggles to survive the Holocaust.",
+    "rating": 4.5,
+    "releaseDate": "2002-09-25",
+    "genre": ["Biography", "Drama", "Music"],
+    "duration": 150,
+    "poster": "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+  },
+  {
+    "title": "Gladiator",
+    "description": "A Roman general seeks revenge after betrayal.",
+    "rating": 4.5,
+    "releaseDate": "2000-05-05",
+    "genre": ["Action", "Drama"],
+    "duration": 155,
+    "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+  },
+  {
+    "title": "American History X",
+    "description": "A former neo-Nazi tries to prevent his brother from following the same path.",
+    "rating": 4.5,
+    "releaseDate": "1998-10-30",
+    "genre": ["Drama"],
+    "duration": 119,
+    "poster": "https://image.tmdb.org/t/p/w500/c2gsmSQ2Cqv8zosqKOCwRS0GFBS.jpg"
+  },
+  {
+    "title": "The Departed",
+    "description": "An undercover cop and a mole in the police attempt to identify each other.",
+    "rating": 4.4,
+    "releaseDate": "2006-10-06",
+    "genre": ["Crime", "Thriller"],
+    "duration": 151,
+    "poster": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+  },
+  {
+    "title": "Whiplash",
+    "description": "A promising drummer pushes himself under a ruthless instructor.",
+    "rating": 4.4,
+    "releaseDate": "2014-10-10",
+    "genre": ["Drama", "Music"],
+    "duration": 106,
+    "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+  },
+  {
+    "title": "The Prestige",
+    "description": "Two rival magicians engage in a bitter feud.",
+    "rating": 4.4,
+    "releaseDate": "2006-10-20",
+    "genre": ["Drama", "Mystery", "Sci-Fi"],
+    "duration": 130,
+    "poster": "https://image.tmdb.org/t/p/w500/5MXyQfz8xUP3dIFPTubhTsbFY6N.jpg"
+  },
+  {
+    "title": "The Lion King",
+    "description": "A young lion prince flees his kingdom after his father's death.",
+    "rating": 4.4,
+    "releaseDate": "1994-06-24",
+    "genre": ["Animation", "Adventure", "Drama"],
+    "duration": 88,
+    "poster": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+  },
+  {
+    "title": "The Usual Suspects",
+    "description": "A sole survivor tells the story of a mysterious crime lord.",
+    "rating": 4.4,
+    "releaseDate": "1995-08-16",
+    "genre": ["Crime", "Mystery", "Thriller"],
+    "duration": 106,
+    "poster": "https://image.tmdb.org/t/p/w500/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg"
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "description": "Two siblings struggle to survive during World War II.",
+    "rating": 4.4,
+    "releaseDate": "1988-04-16",
+    "genre": ["Animation", "Drama", "War"],
+    "duration": 89,
+    "poster": "https://image.tmdb.org/t/p/w500/qG3RYlIVpTYclR9TYIsy8p7m7AT.jpg"
+  },
+  {
+    "title": "Back to the Future",
+    "description": "A teenager travels back in time in a DeLorean.",
+    "rating": 4.4,
+    "releaseDate": "1985-07-03",
+    "genre": ["Adventure", "Comedy", "Sci-Fi"],
+    "duration": 116,
+    "poster": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "description": "A filmmaker recalls his childhood love of movies.",
+    "rating": 4.4,
+    "releaseDate": "1988-11-17",
+    "genre": ["Drama", "Romance"],
+    "duration": 155,
+    "poster": "https://image.tmdb.org/t/p/w500/8SRUfRUi6x4O68n0VCbDNRa6iGL.jpg"
+  },
+  {
+    "title": "Alien",
+    "description": "A deadly alien hunts the crew of a spaceship.",
+    "rating": 4.4,
+    "releaseDate": "1979-05-25",
+    "genre": ["Horror", "Sci-Fi"],
+    "duration": 117,
+    "poster": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+  },
+  {
+    "title": "Apocalypse Now",
+    "description": "A journey into the madness of the Vietnam War.",
+    "rating": 4.4,
+    "releaseDate": "1979-08-15",
+    "genre": ["Drama", "War"],
+    "duration": 147,
+    "poster": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg"
+  },
+  {
+    "title": "Memento",
+    "description": "A man with short-term memory loss attempts to track down his wife's killer.",
+    "rating": 4.4,
+    "releaseDate": "2000-09-05",
+    "genre": ["Mystery", "Thriller"],
+    "duration": 113,
+    "poster": "https://image.tmdb.org/t/p/w500/fQMSaP88cf1nz4qwuNEEFtazuDM.jpg"
+  },
+  {
+    "title": "Indiana Jones and the Raiders of the Lost Ark",
+    "description": "An archaeologist races to find the Ark of the Covenant.",
+    "rating": 4.4,
+    "releaseDate": "1981-06-12",
+    "genre": ["Adventure", "Action"],
+    "duration": 115,
+    "poster": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg"
+  },
+  {
+    "title": "Django Unchained",
+    "description": "A freed slave sets out to rescue his wife.",
+    "rating": 4.4,
+    "releaseDate": "2012-12-25",
+    "genre": ["Drama", "Western"],
+    "duration": 165,
+    "poster": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+  },
+  {
+    "title": "The Shining",
+    "description": "A family heads to an isolated hotel for the winter.",
+    "rating": 4.4,
+    "releaseDate": "1980-05-23",
+    "genre": ["Horror", "Drama"],
+    "duration": 146,
+    "poster": "https://image.tmdb.org/t/p/w500/b6ko0IKC8MdYBBPkkA1aBPLe2yz.jpg"
+  },
+  {
+    "title": "WALL·E",
+    "description": "A robot embarks on a space journey that will decide humanity’s fate.",
+    "rating": 4.4,
+    "releaseDate": "2008-06-27",
+    "genre": ["Animation", "Adventure", "Sci-Fi"],
+    "duration": 98,
+    "poster": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+  },
+  {
+    "title": "The Lives of Others",
+    "description": "A Stasi officer monitors a writer in East Germany.",
+    "rating": 4.4,
+    "releaseDate": "2006-03-23",
+    "genre": ["Drama", "Thriller"],
+    "duration": 137,
+    "poster": "https://image.tmdb.org/t/p/w500/9nCR1YCJ5oF0ydkET2wC8p5PzWS.jpg"
+  },
+  {
+    "title": "Paths of Glory",
+    "description": "French soldiers fight against the injustices of war.",
+    "rating": 4.4,
+    "releaseDate": "1957-12-25",
+    "genre": ["Drama", "War"],
+    "duration": 88,
+    "poster": "https://image.tmdb.org/t/p/w500/h0YPyEJwR6pFqV9PjXz6NZ1v6D.jpg"
+  },
+  {
+    "title": "Sunset Boulevard",
+    "description": "A faded film star hires a screenwriter to revive her career.",
+    "rating": 4.4,
+    "releaseDate": "1950-08-10",
+    "genre": ["Drama", "Film-Noir"],
+    "duration": 110,
+    "poster": "https://image.tmdb.org/t/p/w500/7E0C8E0zv8kCkLehZQXz5PZ0l2J.jpg"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "description": "The Avengers face their most powerful enemy, Thanos.",
+    "rating": 4.4,
+    "releaseDate": "2018-04-27",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "duration": 149,
+    "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+  },
+  {
+    "title": "Witness for the Prosecution",
+    "description": "A courtroom drama with shocking twists.",
+    "rating": 4.4,
+    "releaseDate": "1957-12-17",
+    "genre": ["Crime", "Drama"],
+    "duration": 116,
+    "poster": "https://image.tmdb.org/t/p/w500/8AfghdvmYOV8s5N8IhF5j2UoRZR.jpg"
+  },
+  {
+    "title": "Aliens",
+    "description": "Ellen Ripley returns to face deadly creatures.",
+    "rating": 4.4,
+    "releaseDate": "1986-07-18",
+    "genre": ["Action", "Sci-Fi"],
+    "duration": 137,
+    "poster": "https://image.tmdb.org/t/p/w500/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+  },
+  {
+    "title": "Oldboy",
+    "description": "A man seeks revenge after being mysteriously imprisoned.",
+    "rating": 4.4,
+    "releaseDate": "2003-11-21",
+    "genre": ["Action", "Drama", "Mystery"],
+    "duration": 120,
+    "poster": "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4QzR9.jpg"
+  },
+  {
+    "title": "Princess Mononoke",
+    "description": "A struggle between forest gods and humans.",
+    "rating": 4.4,
+    "releaseDate": "1997-07-12",
+    "genre": ["Animation", "Adventure", "Fantasy"],
+    "duration": 134,
+    "poster": "https://image.tmdb.org/t/p/w500/jHWt7l6D4Kn9iE24E6Ywq7x2vFa.jpg"
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "description": "A mysterious harmonica player fights injustice in the Old West.",
+    "rating": 4.4,
+    "releaseDate": "1968-12-21",
+    "genre": ["Western"],
+    "duration": 165,
+    "poster": "https://image.tmdb.org/t/p/w500/9n7w9Zy9kZCk2C8Dq3zjD0PpB6G.jpg"
+  },
+  {
+    "title": "Das Boot",
+    "description": "A German U-boat crew faces the dangers of war.",
+    "rating": 4.4,
+    "releaseDate": "1981-09-17",
+    "genre": ["Drama", "War"],
+    "duration": 149,
+    "poster": "https://image.tmdb.org/t/p/w500/7ZK7d8Q1zYQqS6XJfA0sNf8tYbM.jpg"
+  }
+]
+

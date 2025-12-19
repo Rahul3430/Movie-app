@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Env files
+*.env
+*.env.local
+*.env.development
+*.env.production
+
+# Build directories
+frontend/dist/
+backend/node_modules/
