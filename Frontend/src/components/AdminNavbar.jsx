@@ -8,7 +8,7 @@ export default function AdminNavbar() {
 
   const logout = async () => {
     await api.post("/auth/logout");
-    navigate("/login");
+    navigate("/Login");
   };
 
   return (
