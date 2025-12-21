@@ -6,9 +6,9 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** Movie Application that 
  🚀 Live Demo
 
 Frontend:
-[(https://mern-movie-app-six.vercel.app/)]((https://mern-movie-app-six.vercel.app/))
+[https://mern-movie-app-six.vercel.app](https://mern-movie-app-six.vercel.app/)
 
-**Backend API:**
+Backend API:
 [https://movie-app-ws2r.onrender.com](https://movie-app-ws2r.onrender.com)
 
  🛠️ Tech Stack
